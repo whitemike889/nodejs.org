@@ -271,10 +271,15 @@ function getSource (callback) {
           current: latestVersion.current(versions),
           lts: latestVersion.lts(versions)
         },
+        blacklivesmatter: {
+          visible: true,
+          text: '#BlackLivesMatter',
+          link: '/en/black-lives-matter/'
+        },
         banner: {
           visible: true,
-          text: 'New security releases to be made available June 2, 2020',
-          link: '/en/blog/vulnerability/june-2020-security-releases/'
+          text: 'New security releases are available',
+          link: '/en/blog/vulnerability/september-2020-security-releases/'
         }
       }
     }
